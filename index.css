@@ -1,0 +1,121 @@
+.chat ul:hover{
+    background-color: white;
+}
+
+td {
+    padding: 0 60px;
+}
+select{
+    width: 400px;
+}
+
+.yes{
+    padding-bottom: 200px;
+}
+
+/* .parent{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+} */
+.parent background-image{
+    opacity: 0.3;
+
+}
+
+/* .gallery{
+    /* display: flex;
+    flex-direction: row; */
+    /* float: left; */
+} */
+
+/* .collage{
+    float: left;
+} */
+/* .h1{
+    display: flex;
+    flex-direction: row;
+} */
+
+.main:hover .call{
+    visibility: visible;
+}
+
+.night ul{
+    list-style-type: none;
+  display: none;
+}
+.night:hover ul{
+    display: block;
+    width: -9;
+
+}
+.gallery{
+    width: fit-content;
+}
+
+.collage{
+    width: fit-content;
+}
+
+.search-icon{
+    position: relative;
+}
+table:hover > dim{
+    background-color: red;
+}
+
+
+.check background-image{
+    width: 300px;
+    height: 200px;
+}
+
+.search {
+    position: absolute;
+    left: 10px; /* Adjust this to control icon's position */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d; /* Icon color (gray) */
+    font-size: 18px; /* Adjust the size of the icon */
+}
+
+.master{
+    position: relative;
+    width: fit-content;
+    height: 200px;
+   
+}
+
+.centered{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(40%, 40%);
+    font-size: 20px;
+    color: white;
+
+}
+.cut{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(10%, 40%);
+    font-size: 20px;
+    color: white;
+
+}
+.put{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(140%, 0%);
+    font-size: 20px;
+    color: white;
+
+}
+.day{
+    border-top: 50px solid red;
+    border-left: 50px solid red;
+}
